@@ -228,7 +228,34 @@
         <!-- FOOTER -->
         <footer class="container">
             <p class="float-end"><a href="#">Back to top</a></p>
-            <p>&copy; 2017–2021 Company, Inc. &middot; <a href="#">Privacy</a> &middot; <a href="#">Terms</a></p>
+
+            <div aria-label="breadcrumb" style="--bs-breadcrumb-divider: '·';">
+                <ol class="breadcrumb">
+                    <li class="breadcrumb-item">
+                        &copy; 2017–2021 Company, Inc.
+                    </li>
+
+                    <li class="breadcrumb-item">
+                        <a href="#">Privacy</a>
+                    </li>
+
+                    <li class="breadcrumb-item">
+                        <a href="#">Home</a>
+                    </li>
+
+                    <li class="breadcrumb-item">
+                        <a href="#">Terms</a>
+                    </li>
+
+                    <li class="breadcrumb-item">
+                        <a href="#">Jobs</a>
+                    </li>
+
+                    <li class="breadcrumb-item">
+                        <a href="#">Contact us</a>
+                    </li>
+                </ol>
+            </div>
         </footer>
     </main>
     <script
